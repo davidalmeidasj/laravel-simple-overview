@@ -10,6 +10,9 @@ class ProductController extends Controller
 {
     public function create(Request $request)
     {
+
+        
+
         $product = new Product;
         $product->name = 'God of War';
         $product->price = 40;
@@ -24,7 +27,7 @@ class ProductController extends Controller
 
     public function show(Product $product)
     {
-        return view('product.show', compact('product'));
+        return view('show', compact('product'));
     }
 
     public function removeCategory(Product $product)
