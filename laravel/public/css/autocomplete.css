@@ -1,0 +1,27 @@
+.ui-tooltip {
+    background: #4a4a4a;
+    color: #96f226;
+    border: 2px solid #454545;
+    border-radius: 0px;
+    box-shadow: 0 0
+}
+.ui-autocomplete {
+    background: #ffffff;
+    border-radius: 0px;
+}
+.ui-autocomplete.source:hover {
+    background: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none!important;
+    color: black;
+}
+
+.ui-menu .ui-menu-item a{
+    height:10px;
+    font-size:14px;}
