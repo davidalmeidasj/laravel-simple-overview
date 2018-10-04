@@ -38,6 +38,7 @@
     <header>
         <a class="logo" href="{{ URL::to('') }}">Listagem de títulos</a>
         <a class="logo" href="{{ URL::to('cadastro') }}">Novos títulos</a>
+        <a class="logo" href="{{ URL::to('cadastro') }}">Listagem Produtos</a>
         {{--<span id="top-nav">--}}
             {{--<a style="margin-right: 10%;">Usuário</a>--}}
         {{--</span>--}}
